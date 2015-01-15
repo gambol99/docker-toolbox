@@ -8,5 +8,5 @@ FROM centos:latest
 MAINTAINER Rohith <gambol99@gmail.com>
 
 RUN yum install -y http://mirrors.coreix.net/fedora-epel/7/x86_64/e/epel-release-7-5.noarch.rpm
-RUN yum install -y httpd-tools nmap htop nc telnet iftop
+RUN yum install -y httpd-tools nmap htop nc telnet iftop siege
 
